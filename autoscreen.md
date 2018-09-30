@@ -12,6 +12,11 @@
      * 系统的ScaleDensity
      */
     private var sysScaleDensity = 0f
+
+     /**
+     * 指定设计屏幕尺寸
+     */
+    private var selfScreen = 360f
     fun setCustDensity(application: Application,activity: Activity){
         val displayMetrics = application.resources.displayMetrics
         if (sysDensity==0f){
@@ -43,4 +48,17 @@
         actDisplayMetrics.densityDpi = dpi.toInt()
         actDisplayMetrics.scaledDensity = targetScaleDensity
     }
+```
+
+**初始化适配：**
+
+```kotlin
+   abstract class BaseActivity : AppCompatActivity() {
+       override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        DimenFit.instance.setCustDensity(application,this)
+        setContentView(...)
+        ...
+       }
+   }
 ```
