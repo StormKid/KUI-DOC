@@ -15,4 +15,4 @@
 
 >效果图
 
- ![toolbar效果图](/editImg/toolbar.png)
+ ![toolbar效果图](../editImg/toolbar.png)
