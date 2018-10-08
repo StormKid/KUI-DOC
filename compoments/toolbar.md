@@ -15,4 +15,4 @@
 
 >效果图
 
- ![toolbar效果图](../editImg/toolbar.png ":size=300x")
+ ![toolbar效果图](localhost/editImg/toolbar.png ":size=300x")
