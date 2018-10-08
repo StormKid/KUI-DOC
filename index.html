@@ -10,6 +10,10 @@
   
 </head>
 <body>
+    <nav>
+        <a href="#/">EN</a>
+        <a href="#/zh-cn/">中文</a>
+      </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -18,11 +22,20 @@
       loadSidebar: 'sliderbar.md',
       themeColor: '#4A93FD',
       executeScript:true,
-      auto2top: true
+      auto2top: true,
+      loadNavbar:true,
+      search:{
+        placeholder:{
+          '/':'搜索'
+        },
+        noData: '暂无可用信息',
+      }
+      
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </body>
 </html>
