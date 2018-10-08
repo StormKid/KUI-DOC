@@ -60,8 +60,8 @@
 | setRightTextClick| listener  | OnClickListener    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
 | setTitle | titleText  | string    | 设置大标题  |
 | setContent | contentText  | string    | 设置小标题  |
-| setLeftIcon | icon  | DrawableInt    | 设置大标题  |
-| setRightIcon | icon  | DrawableInt    | 设置大标题  |
+| setLeftIcon | icon  | DrawableInt    | 设置左图标  |
+| setRightIcon | icon  | DrawableInt    | 设置右图标 |
 ---------------------
 
 !> **如果icon的图标不是svg图像，是png或jpg的话icon color是无法指定颜色的**
