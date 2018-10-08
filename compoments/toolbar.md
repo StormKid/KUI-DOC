@@ -31,7 +31,7 @@
                                               android:layout_height="@dimen/dp_40"/>
 ```
 
-> API
+> Attrs
 
 | AttrName  | Type | DefultValue    | Remark  |
 |-------|---|-----------|-------|
@@ -49,6 +49,19 @@
 | content_color  | resource   | #999 |  小标题文字字体颜色     |
 | is_nav_bar  | boolean   | true | 是否是标题栏     |
 | is_right_text  | boolean   | false | 是否使用小标题当右侧点击功能按钮 |
+
+> Fun
+
+| FunctionName|Params  | ParamsType    | Remark  |
+|-------|-----|------|-------|
+| setOnToolClickListener| listener  | OnClickListener    | 整个条目点击  |
+| setLeftIconClickListener| listener  | OnClickListener    | 左侧图标点击事件，如果为navbar则此事件默认为finish当前页面，如想自定义可先使用is_nav_bar="false"。  |
+| setRightIconClickListener| listener  | OnClickListener    | 右侧图标点击事件  |
+| setRightTextClick| listener  | OnClickListener    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
+| setTitle | titleText  | string    | 设置大标题  |
+| setContent | contentText  | string    | 设置小标题  |
+| setLeftIcon | icon  | DrawableInt    | 设置大标题  |
+| setRightIcon | icon  | DrawableInt    | 设置大标题  |
 ---------------------
 
 !> **如果icon的图标不是svg图像，是png或jpg的话icon color是无法指定颜色的**
