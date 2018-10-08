@@ -51,6 +51,7 @@
 | is_right_text  | boolean   | false | 是否使用小标题当右侧点击功能按钮 |
 ---------------------
 
+!> **如果icon的图标不是svg图像，是png或jpg的话icon color是无法指定颜色的**
 
 >效果图
 
