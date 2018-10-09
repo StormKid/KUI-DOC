@@ -67,8 +67,8 @@
 | setTitleColor | color  | ColorInt    | 设置主标题字体颜色 |
 | setTitileSize | size  | Float    | 设置主标题字体大小 |
 | setContentColor | color  | ColorInt    | 设置副标题字体颜色 |
-| setContentSize | size  | Float    | 设置副标题字体大小 |
----------------------
+
+------------------------
 
 !> **如果icon的图标不是svg图像，是png或jpg的话icon color是无法指定颜色的**
 
