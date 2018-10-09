@@ -58,10 +58,16 @@
 | setLeftIconClickListener| listener  | OnClickListener    | 左侧图标点击事件，如果为navbar则此事件默认为finish当前页面，如想自定义可先使用is_nav_bar="false"。  |
 | setRightIconClickListener| listener  | OnClickListener    | 右侧图标点击事件  |
 | setRightTextClick| listener  | OnClickListener    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
-| setTitle | titleText  | string    | 设置大标题  |
-| setContent | contentText  | string    | 设置小标题  |
-| setLeftIcon | icon  | DrawableInt    | 设置左图标  |
-| setRightIcon | icon  | DrawableInt    | 设置右图标 |
+| setTitle | titleText  | String    | 设置大标题  |
+| setContent | contentText  | String    | 设置小标题  |
+| setLeftIcon | icon  | DrawableInt    | 设置左图标 png/jpg调用 |
+| setRightIcon | icon  | DrawableInt    | 设置右图标 png/jpg调用 |
+| setLeftIconResColor | res, color  | DrawableInt , ColorInt   | 设置左图标和图标颜色 svg调用 |
+| setRightIconResColor | res, color  | DrawableInt ,ColorInt   |  设置左图标和图标颜色 svg调用 |
+| setTitleColor | color  | ColorInt    | 设置主标题字体颜色 |
+| setTitileSize | size  | Float    | 设置主标题字体大小 |
+| setContentColor | color  | ColorInt    | 设置副标题字体颜色 |
+| setContentSize | size  | Float    | 设置副标题字体大小 |
 ---------------------
 
 !> **如果icon的图标不是svg图像，是png或jpg的话icon color是无法指定颜色的**
