@@ -76,7 +76,7 @@
 | text_color  | resource   | #fff | button文字颜色   |
 | bg_drawable  | enum   | radius | button背景类型，一般默认为带圆角背景【radius/circle/round】 |
 | ignore_padding  | boolean    | false | 是否取消默认间距     |
-| bg_color  | resource   | resource |  button背景色    |
+| bg_color  | resource   | resource |  button背景色，镂空状态下为边框颜色    |
 | bg_radius  | dimension   | 5dp |  button圆弧半径     |
 | is_stroke  | boolean   | false | 是否镂空     |
 
