@@ -86,11 +86,12 @@
 | FunctionName|Params  | ParamsType    | Remark  |
 |-------|-----|------|-------|
 | setText | text  | String    |  设置button文字 |
+| setTextSize | size  | Float    | 设置button字体大小  |
+| setTextColor | res  | @ColorRes Int    | 设置button字体颜色  |
 | setIconRes| imgRes  | @DrawableRes Int    |  设置图标资源  |
 | setIconDimen| dimen  | Float    | 设置图标资源  |
 | setIconResColor| src,res  | @DrawableRes Int,@ColorRes Int    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
 | setRadius | dimen  | Float    | 设置button倒角圆弧尺寸  |
-| setTextSize | size  | Float    | 设置button字体大小  |
 | setBgType | bg  | Int    | 设置背景类型【radiusType,cicrleType,roundType】 |
 | setBgColor | bgColor  | @ColorInt Int | 设置backgroundColor |
 
