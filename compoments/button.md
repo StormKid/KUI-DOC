@@ -44,28 +44,60 @@
                                                 app:text_dimen="@dimen/sp_10"
                                                 android:layout_height="wrap_content"/>
 ```
-
 !> **直接输入icon的res即可显示图标按钮**
+
+> 镂空按钮：
+
+```xml
+   <com.stormkid.kui_base.button.KuiButton android:layout_width="wrap_content"
+                                                app:text="镂空方按钮"
+                                                app:is_stroke="true"
+                                                app:bg_color="@android:color/holo_orange_light"
+                                                app:icon_res="@drawable/ic_home"
+                                                app:icon_color="@android:color/holo_orange_light"
+                                                app:text_dimen="@dimen/sp_10"
+                                                app:text_color="@android:color/holo_orange_light"
+                                                app:bg_radius="0px"
+                                                android:layout_height="wrap_content"/>
+```
+!> **在镂空状态下设置按钮背景其实是边框颜色，背景色统一透明**
+
 
 > Attrs
 
 | AttrName  | Type | DefultValue    | Remark  |
 |-------|---|-----------|-------|
-| image_dimen  | dimention | 20dp     | 图标宽高 |
-| left_image_icon | resource  | 0     | 左图标   |
-| left_icon_color  | resource   | white | 左图标颜色     |
-| right_image_icon | resource  | 0     | 右图标   |
-| right_icon_color  | resource   | white | 右图标颜色     |
-| title_text  | string   | "" | 主标题/主显示文字     |
-| title_size  | dimention   | 14sp | 主标题/主显示文字字号     |
-| title_color  | resource   | #666 | 主标题/主显示文字颜色     |
-| title_gravity  | enum   | CENTER | 主标题文字位置【LEFT/RIGHT/CENTER】 |
-| content_text  | string    | "" | 小标题文字内容     |
-| content_size  | dimention   | true |  小标题文字字体大小    |
-| content_color  | resource   | #999 |  小标题文字字体颜色     |
-| is_nav_bar  | boolean   | true | 是否是标题栏     |
-| is_right_text  | boolean   | false | 是否使用小标题当右侧点击功能按钮 |
+| icon_dimen  | dimention | 28dp     | 图标宽高 |
+| icon_res | resource  | 0     | 图标资源   |
+| icon_color  | resource   | white | 图标颜色     |
+| icon_gravity | enum  | TOP     | 图标相对于文字的方向【TOP/LEFT/RIGHT/BOTTOM】   |
+| text  | string   | "" |  button的文字     |
+| text_dimen  | dimention   | 13sp |   button文字的字号大小   |
+| text_color  | resource   | #fff | button文字颜色   |
+| bg_drawable  | enum   | radius | button背景类型，一般默认为带圆角背景【radius/circle/round】 |
+| ignore_padding  | boolean    | false | 是否取消默认间距     |
+| bg_color  | resource   | resource |  button背景色    |
+| bg_radius  | dimension   | 5dp |  button圆弧半径     |
+| is_stroke  | boolean   | false | 是否镂空     |
+
+
+> Fun
+
+| FunctionName|Params  | ParamsType    | Remark  |
+|-------|-----|------|-------|
+| setText | text  | String    |  设置button文字 |
+| setIconRes| imgRes  | @DrawableRes Int    |  设置图标资源  |
+| setIconDimen| dimen  | Float    | 设置图标资源  |
+| setIconResColor| src,res  | @DrawableRes Int,@ColorRes Int    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
+| setRadius | dimen  | Float    | 设置button倒角圆弧尺寸  |
+| setTextSize | size  | Float    | 设置button字体大小  |
+| setBgType | bg  | Int    | 设置背景类型【radiusType,cicrleType,roundType】 |
+| setBgColor | bgColor  | @ColorInt Int | 设置backgroundColor |
+
+
+
 ------------------------
+
 
 >效果图：
 

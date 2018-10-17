@@ -60,13 +60,13 @@
 | setRightTextClick| listener  | OnClickListener    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
 | setTitle | titleText  | String    | 设置大标题  |
 | setContent | contentText  | String    | 设置小标题  |
-| setLeftIcon | icon  | DrawableInt    | 设置左图标 png/jpg调用 |
-| setRightIcon | icon  | DrawableInt    | 设置右图标 png/jpg调用 |
-| setLeftIconResColor | res, color  | DrawableInt , ColorInt   | 设置左图标和图标颜色 svg调用 |
-| setRightIconResColor | res, color  | DrawableInt ,ColorInt   |  设置左图标和图标颜色 svg调用 |
-| setTitleColor | color  | ColorInt    | 设置主标题字体颜色 |
+| setLeftIcon | icon  | @DrawableRes Int    | 设置左图标 png/jpg调用 |
+| setRightIcon | icon  | @DrawableRes Int    | 设置右图标 png/jpg调用 |
+| setLeftIconResColor | res, color  | @DrawableRes Int , @ColorRes Int   | 设置左图标和图标颜色 svg调用 |
+| setRightIconResColor | res, color  | @DrawableRes Int ,@ColorRes Int   |  设置左图标和图标颜色 svg调用 |
+| setTitleColor | color  | @ColorRes Int    | 设置主标题字体颜色 |
 | setTitileSize | size  | Float    | 设置主标题字体大小 |
-| setContentColor | color  | ColorInt    | 设置副标题字体颜色 |
+| setContentColor | color  | @ColorRes Int    | 设置副标题字体颜色 |
 
 ------------------------
 
