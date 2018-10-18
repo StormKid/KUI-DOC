@@ -60,7 +60,7 @@
                                                 app:bg_radius="0px"
                                                 android:layout_height="wrap_content"/>
 ```
-!> **在镂空状态下设置按钮背景其实是边框颜色，背景色统一透明**
+!> **在镂空状态下设置按钮背景其实是边框颜色，背景色统一白色**
 
 
 > Attrs
