@@ -79,6 +79,8 @@
 | bg_color  | resource   | resource |  button背景色，镂空状态下为边框颜色    |
 | bg_radius  | dimension   | 5dp |  button圆弧半径     |
 | is_stroke  | boolean   | false | 是否镂空     |
+| is_show_ripple| boolean | true | 是否显示水波纹 |
+| button_ripple_color | resource | argb(120,0,0,0) | 水波纹背景色 |
 
 
 > Fun
@@ -94,7 +96,7 @@
 | setRadius | dimen  | Float    | 设置button倒角圆弧尺寸  |
 | setBgType | bg  | Int    | 设置背景类型【radiusType/cicrleType/roundType】 |
 | setBgColor | bgColor  | @ColorInt Int | 设置backgroundColor |
-
+| setRippleColor | rippleColor  | @ColorInt Int | 设置水波纹背景色|
 
 
 ------------------------

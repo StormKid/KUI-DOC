@@ -49,6 +49,7 @@
 | content_color  | resource   | #999 |  小标题文字字体颜色     |
 | is_nav_bar  | boolean   | true | 是否是标题栏     |
 | is_right_text  | boolean   | false | 是否使用小标题当右侧点击功能按钮 |
+| toolbar_ripple_color | resource | argb(120,0,0,0) | 点击水波纹颜色 |
 
 > Fun
 
@@ -67,6 +68,7 @@
 | setTitleColor | color  | @ColorRes Int    | 设置主标题字体颜色 |
 | setTitileSize | size  | Float    | 设置主标题字体大小 |
 | setContentColor | color  | @ColorRes Int    | 设置副标题字体颜色 |
+| setRippleColor | color | @ColorInt Int | 设置水波纹颜色 |
 
 ------------------------
 
