@@ -68,6 +68,7 @@
 | setTitleColor | color  | @ColorRes Int    | 设置主标题字体颜色 |
 | setTitileSize | size  | Float    | 设置主标题字体大小 |
 | setContentColor | color  | @ColorRes Int    | 设置副标题字体颜色 |
+| setContentSize | size  | Float    | 设置副标题字体大小 |
 | setRippleColor | color | @ColorInt Int | 设置水波纹颜色 |
 
 ------------------------
