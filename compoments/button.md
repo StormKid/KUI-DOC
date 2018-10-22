@@ -104,4 +104,4 @@
 
 >效果图：
 
-![button效果图](../editImg/button.png ":size=300x")
+![button效果图](../editImg/button.gif ":size=300x")
