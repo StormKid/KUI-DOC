@@ -77,7 +77,7 @@
 | bg_drawable  | enum   | radius | button背景类型，一般默认为带圆角背景【radius/circle/round】 |
 | ignore_padding  | boolean    | false | 是否取消默认间距     |
 | bg_color  | resource   | resource |  button背景色，镂空状态下为边框颜色    |
-| bg_radius  | dimension   | 5dp |  button圆弧半径     |
+| bg_radius  | dimension   | 3dp |  button圆弧半径     |
 | is_stroke  | boolean   | false | 是否镂空     |
 | is_show_ripple| boolean | true | 是否显示水波纹 |
 | button_ripple_color | resource | argb(120,0,0,0) | 水波纹背景色 |
