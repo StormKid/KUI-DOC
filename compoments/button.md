@@ -97,6 +97,7 @@
 | setBgType | bg  | Int    | 设置背景类型【radiusType/cicrleType/roundType】 |
 | setBgColor | bgColor  | @ColorInt Int | 设置backgroundColor |
 | setRippleColor | rippleColor  | @ColorInt Int | 设置水波纹背景色|
+| setStorke | isStorke | Boolean | 设置是否镂空 |
 
 
 ------------------------

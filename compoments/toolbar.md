@@ -17,12 +17,12 @@
 > 条目工具栏
 
 ```xml
-    <com.stormkid.kui_base.toolbar.KuiToolBar android:layout_width="match_parent"
+  <com.stormkid.kui_base.toolbar.KuiToolBar android:layout_width="match_parent"
                                               app:title_text="我是默认使用栏目"
                                               android:background="@color/colorPrimary"
-                                              android:foreground="?android:attr/selectableItemBackground"
                                               android:id="@+id/tool_title"
                                               app:title_gravity="LEFT"
+                                              app:toolbar_ripple_color="@android:color/white"
                                               app:title_color="@android:color/white"
                                               app:is_nav_bar="false"
                                               app:content_text="我是小标题显示内容"
