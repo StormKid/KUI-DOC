@@ -65,10 +65,10 @@ KuiChooseAlert.instance
                     .setContent("content")
                     .setTitleColor(Color.GRAY)
                     .setContentColor(Color.LTGRAY)
-                    .setPositiveButtonColorful(ColorResButton())
-                    .setNegativeButtonColorful(ColorResButton())
-                    .setNegativeText("cancel")
                     .setPositiveText("okay")
+                    .setPositiveButtonColorful(ColorResButton())
+                    .setNegativeText("cancel")
+                    .setNegativeButtonColorful(ColorResButton())
                     .initClickDismiss(true)
                     .initCallback({
                         //确定回调
@@ -77,4 +77,34 @@ KuiChooseAlert.instance
                     }).build().show(supportFragmentManager,"tag")
 
 
+```
+
+> Fun
+
+| FunctionName|Params  | ParamsType    | Remark  |
+|-------|-----|------|-------|
+| setTitle | text  | String    |  设置title文字 |
+| setTitleColor | res  | @ColorInt Int    | 设置title字体颜色  |
+| setContent | text  | String    |  设置content文字 |
+| setContentColor | res  | @ColorInt Int    | 设置content字体颜色  |
+| setPositiveText | text  | String    |  设置okay 按钮的文字内容 |
+| setPositiveButtonColorful | colorResButton  |  ColorResButton  | 设置okay button 的样式 【详见ColorResButton】 |
+| setNegativeText | text  | String    |  设置cancel 按钮的文字内容 |
+| setNegativeButtonColorful | colorResButton  | ColorResButton  | 设置cancel button 的样式 【详见ColorResButton】 |
+| initClickDismiss | isClickAllDismiss | Boolean | 设置是否点击主窗口关闭整个弹窗 |
+| initCallback | okCallback,cancelCallback  | ()->Unit,()->Unit | 设置回调函数，okCallback为点击确定按钮，cancelCallback为点击取消 |
+
+!> ColorResButton: 
+```kotlin
+/**
+ * 建立自定义button颜色值
+ * @param textColor 文字颜色
+ * @param bgColor 背景或线条颜色
+ * @param rippleColor 点击水波纹颜色
+ * @param isStroke 是否是镂空
+ */
+data class ColorResButton(@ColorRes var textColor:Int = android.R.color.white
+                        ,@ColorInt var  bgColor:Int = Color.rgb(33,150,243)
+                        ,@ColorInt var rippleColor: Int = Color.BLACK
+                        ,var isStroke: Boolean = false)
 ```
