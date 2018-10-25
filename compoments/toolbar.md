@@ -66,10 +66,10 @@
 | setLeftIconResColor (@DrawableRes res:Int, @ColorRes color:Int)  | 设置左图标和图标颜色 svg调用                                                                       |
 | setRightIconResColor (@DrawableRes res:Int, @ColorRes color:Int) | 设置左图标和图标颜色 svg调用                                                                       |
 | setTitleColor (@ColorRes color:Int)                              | 设置主标题字体颜色                                                                                 |
-| setTitileSize(size:Float) 设置主标题字体大小                     |
+| setTitileSize(size:Float)                                        | 设置主标题字体大小                                                                                 |
 | setContentColor (@ColorRes color:Int)                            | 设置副标题字体颜色                                                                                 |
-| setContentSize(size:Float) 设置副标题字体大小                    |
-| setRippleColor(@ColorInt color:Int) 设置水波纹颜色               |
+| setContentSize(size:Float)                                       | 设置副标题字体大小                                                                                 |
+| setRippleColor(@ColorInt color:Int)                              | 设置水波纹颜色                                                                                     |
 
 ------------------------
 
