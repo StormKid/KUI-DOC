@@ -39,9 +39,9 @@ data class DialogModel(@LayoutRes val layoutId:Int,@StyleRes val styleId:Int)
 
 可以注入任意的布局文件，以及任意的style，来自主的构建自己想要的alert。
 
-> **KuiChooseAlert**
+> **KuiChoiceAlert**
 
-**说明：KuiChooseAlert为KuiAlert 的自定义双按钮方案，其图如下图所示：**
+**说明：KuiChoiceAlert为KuiAlert 的自定义双按钮方案，其图如下图所示：**
 
 ![alert_two_button](../editImg/alert_two_button.png)
 
@@ -49,7 +49,7 @@ data class DialogModel(@LayoutRes val layoutId:Int,@StyleRes val styleId:Int)
 
 ```kotlin
 //普通初始化显示
-KuiChooseAlert.instance
+KuiChoiceAlert.instance
                 .setTitle("标题")
                 .setContent("提示内容")
                 .initCallback({
@@ -60,7 +60,7 @@ KuiChooseAlert.instance
 
 
 //全套初始化显示
- KuiChooseAlert.instance
+ KuiChoiceAlert.instance
                     .setTitle("title")
                     .setContent("content")
                     .setTitleColor(Color.GRAY)
@@ -94,7 +94,7 @@ KuiChooseAlert.instance
 | initClickDismiss (isClickAllDismiss : Boolean )             | 设置是否点击主窗口关闭整个弹窗                                   |
 | initCallback ( okCallback:()->Unit,cancelCallback:()->Unit) | 设置回调函数，okCallback为点击确定按钮，cancelCallback为点击取消 |
 
-!> ColorResButton: 
+!> **ColorResButton: **
 ```kotlin
 /**
  * 建立自定义button颜色值
@@ -108,3 +108,7 @@ data class ColorResButton(@ColorRes var textColor:Int = android.R.color.white
                         ,@ColorInt var rippleColor: Int = Color.BLACK
                         ,var isStroke: Boolean = false)
 ```
+
+> 效果图：
+
+![alert效果图](../editImg/alert.gif ":size=300x")
