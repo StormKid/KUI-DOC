@@ -65,39 +65,39 @@
 
 > Attrs
 
-| AttrName  | Type | DefultValue    | Remark  |
-|-------|---|-----------|-------|
-| icon_dimen  | dimention | 28dp     | 图标宽高 |
-| icon_res | resource  | 0     | 图标资源   |
-| icon_color  | resource   | white | 图标颜色     |
-| icon_gravity | enum  | TOP     | 图标相对于文字的方向【TOP/LEFT/RIGHT/BOTTOM】   |
-| text  | string   | "" |  button的文字     |
-| text_dimen  | dimention   | 13sp |   button文字的字号大小   |
-| text_color  | resource   | #fff | button文字颜色   |
-| bg_drawable  | enum   | radius | button背景类型，一般默认为带圆角背景【radius/circle/round】 |
-| ignore_padding  | boolean    | false | 是否取消默认间距     |
-| bg_color  | resource   | resource |  button背景色，镂空状态下为边框颜色    |
-| bg_radius  | dimension   | 3dp |  button圆弧半径     |
-| is_stroke  | boolean   | false | 是否镂空     |
-| is_show_ripple| boolean | true | 是否显示水波纹 |
-| button_ripple_color | resource | argb(120,0,0,0) | 水波纹背景色 |
+| AttrName            | Type      | DefultValue     | Remark                                                      |
+| ------------------- | --------- | --------------- | ----------------------------------------------------------- |
+| icon_dimen          | dimention | 28dp            | 图标宽高                                                    |
+| icon_res            | resource  | 0               | 图标资源                                                    |
+| icon_color          | resource  | white           | 图标颜色                                                    |
+| icon_gravity        | enum      | TOP             | 图标相对于文字的方向【TOP/LEFT/RIGHT/BOTTOM】               |
+| text                | string    | ""              | button的文字                                                |
+| text_dimen          | dimention | 13sp            | button文字的字号大小                                        |
+| text_color          | resource  | #fff            | button文字颜色                                              |
+| bg_drawable         | enum      | radius          | button背景类型，一般默认为带圆角背景【radius/circle/round】 |
+| ignore_padding      | boolean   | false           | 是否取消默认间距                                            |
+| bg_color            | resource  | resource        | button背景色，镂空状态下为边框颜色                          |
+| bg_radius           | dimension | 3dp             | button圆弧半径                                              |
+| is_stroke           | boolean   | false           | 是否镂空                                                    |
+| is_show_ripple      | boolean   | true            | 是否显示水波纹                                              |
+| button_ripple_color | resource  | argb(120,0,0,0) | 水波纹背景色                                                |
 
 
 > Fun
 
-| FunctionName|Params  | ParamsType    | Remark  |
-|-------|-----|------|-------|
-| setText | text  | String    |  设置button文字 |
-| setTextSize | size  | Float    | 设置button字体大小  |
-| setTextColor | res  | @ColorRes Int    | 设置button字体颜色  |
-| setIconRes| imgRes  | @DrawableRes Int    |  设置图标资源  |
-| setIconDimen| dimen  | Float    | 设置图标尺寸  |
-| setIconResColor| src,res  | @DrawableRes Int,@ColorRes Int    | 当is_right_text="true"的时候控制右侧小标题文字点击事件  |
-| setRadius | dimen  | Float    | 设置button倒角圆弧尺寸  |
-| setBgType | bg  | Int    | 设置背景类型【radiusType/cicrleType/roundType】 |
-| setBgColor | bgColor  | @ColorInt Int | 设置backgroundColor |
-| setRippleColor | rippleColor  | @ColorInt Int | 设置水波纹背景色|
-| setStorke | isStorke | Boolean | 设置是否镂空 |
+| FunctionName                                             | Remark                                          |
+| -------------------------------------------------------- | ----------------------------------------------- |
+| setText (text:String)                                    | 设置button文字                                  |
+| setTextSize (size:Float)                                 | 设置button字体大小                              |
+| setTextColor ( res  : @ColorRes Int  )                   | 设置button字体颜色                              |
+| setIconRes( imgRes  : @DrawableRes Int )                 | 设置图标资源                                    |
+| setIconDimen(dimen:Float)                                | 设置图标尺寸                                    |
+| setIconResColor( @DrawableRes src:Int,ColorRes res :Int) | 设置图标颜色与填充文件                          |
+| setRadius (dimen:Float)                                  | 设置button倒角圆弧尺寸                          |
+| setBgType ( bg  : Int)                                   | 设置背景类型【radiusType/cicrleType/roundType】 |
+| setBgColor(@ColorInt bgColor:Int)                        | 设置backgroundColor                             |
+| setRippleColor(@ColorInt rippleColor:Int)                | 设置水波纹背景色                                |
+| setStorke ( isStorke : Boolean )                         | 设置是否镂空                                    |
 
 
 ------------------------

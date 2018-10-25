@@ -81,18 +81,18 @@ KuiChooseAlert.instance
 
 > Fun
 
-| FunctionName|Params  | ParamsType    | Remark  |
-|-------|-----|------|-------|
-| setTitle | text  | String    |  设置title文字 |
-| setTitleColor | res  | @ColorInt Int    | 设置title字体颜色  |
-| setContent | text  | String    |  设置content文字 |
-| setContentColor | res  | @ColorInt Int    | 设置content字体颜色  |
-| setPositiveText | text  | String    |  设置okay 按钮的文字内容 |
-| setPositiveButtonColorful | colorResButton  |  ColorResButton  | 设置okay button 的样式 【详见ColorResButton】 |
-| setNegativeText | text  | String    |  设置cancel 按钮的文字内容 |
-| setNegativeButtonColorful | colorResButton  | ColorResButton  | 设置cancel button 的样式 【详见ColorResButton】 |
-| initClickDismiss | isClickAllDismiss | Boolean | 设置是否点击主窗口关闭整个弹窗 |
-| initCallback | okCallback,cancelCallback  | ()->Unit,()->Unit | 设置回调函数，okCallback为点击确定按钮，cancelCallback为点击取消 |
+| FunctionName                                                | Remark                                                           |
+| ----------------------------------------------------------- | ---------------------------------------------------------------- |
+| setTitle (text:String)                                      | 设置title文字                                                    |
+| setTitleColor(res:@ColorInt Int)                            | 设置title字体颜色                                                |
+| setContent (text:String)                                    | 设置content文字                                                  |
+| setContentColor (@ColorInt res:Int)                         | 设置content字体颜色                                              |
+| setPositiveText (text:String)                               | 设置okay 按钮的文字内容                                          |
+| setPositiveButtonColorful (colorResButton : ColorResButton) | 设置okay button 的样式 【详见ColorResButton】                    |
+| setNegativeText (text:String)                               | 设置cancel 按钮的文字内容                                        |
+| setNegativeButtonColorful(colorResButton : ColorResButton)  | 设置cancel button 的样式 【详见ColorResButton】                  |
+| initClickDismiss (isClickAllDismiss : Boolean )             | 设置是否点击主窗口关闭整个弹窗                                   |
+| initCallback ( okCallback:()->Unit,cancelCallback:()->Unit) | 设置回调函数，okCallback为点击确定按钮，cancelCallback为点击取消 |
 
 !> ColorResButton: 
 ```kotlin
