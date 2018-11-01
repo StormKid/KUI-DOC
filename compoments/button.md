@@ -99,6 +99,7 @@
 | setRippleColor(@ColorInt rippleColor:Int)                | 设置水波纹背景色                                |
 | setStorke ( isStorke : Boolean )                         | 设置是否镂空                                    |
 
+!>默认状态下不会激发水波纹，只有设置onClickListener过后即有水波纹显示。
 
 ------------------------
 

@@ -5,5 +5,6 @@
 
 >**组件**
 * [alert](/compoments/alert)
+* [badge](/compoments/badge)
 * [button](/compoments/button) 
 * [toolbar](/compoments/toolbar)
