@@ -19,7 +19,8 @@ class AlertActivity : MainActivity(),AlertContentListener {
         }
     }
 ```
-** 说明：**
+
+**说明：**
 
 可以在默认所有的activity或fragment中进行构建，构建必须实现**AlertContentListener**来完成回调任务。其使用的核心API为：
 ```kotlin
