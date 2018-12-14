@@ -81,6 +81,7 @@
 | is_stroke           | boolean   | false           | 是否镂空                                                    |
 | is_show_ripple      | boolean   | true            | 是否显示水波纹                                              |
 | button_ripple_color | resource  | argb(120,0,0,0) | 水波纹背景色                                                |
+| button_text_gravity | enum      | center          | 文字在button里面的布局                                      |
 
 
 > Fun
@@ -98,6 +99,7 @@
 | setBgColor(@ColorInt bgColor:Int)                        | 设置backgroundColor                             |
 | setRippleColor(@ColorInt rippleColor:Int)                | 设置水波纹背景色                                |
 | setStorke ( isStorke : Boolean )                         | 设置是否镂空                                    |
+| setTextGravity ( gravity : Int )                         | 设置文字在button中的布局                        |
 
 !>默认状态下不会激发水波纹，只有设置onClickListener过后即有水波纹显示。
 
