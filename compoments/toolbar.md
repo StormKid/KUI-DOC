@@ -2,8 +2,9 @@
 
 !> **一种简易多功能条目，可以变成navbar也可以直接使用在项目中**
 
-**使用方式：**
-> 标题栏
+>使用方式：
+
+**标题栏**
 
 ```xml
  <com.stormkid.kui_base.toolbar.KuiToolBar android:layout_width="match_parent"
@@ -14,7 +15,7 @@
                                             android:layout_height="@dimen/dp_40"/>
 ```    
 
-> 条目工具栏
+**条目工具栏**
 
 ```xml
   <com.stormkid.kui_base.toolbar.KuiToolBar android:layout_width="match_parent"

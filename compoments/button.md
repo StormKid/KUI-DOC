@@ -1,8 +1,9 @@
 ## button
 !> **点击事件的承载者，触发事件来完成对业务逻辑的状态进行处理**
 
-**使用方式：**
-> 默认按钮：
+> 使用方式：
+
+**默认按钮：**
 
 ```xml
    <com.stormkid.kui_base.button.KuiButton  android:layout_width="@dimen/dp_80"
@@ -12,7 +13,7 @@
 
 ```
 
-> 默认圆形按钮：
+**默认圆形按钮：**
 
 ```xml
  <com.stormkid.kui_base.button.KuiButton android:layout_width="@dimen/dp_80"
@@ -24,7 +25,7 @@
 ```
 !>**注意：圆形按钮需要指定宽高相等，切勿使用wrap_content**
 
-> 默认圆弧按钮：
+**默认圆弧按钮：**
 
 ```xml
     <com.stormkid.kui_base.button.KuiButton android:layout_width="@dimen/dp_80"
@@ -34,7 +35,7 @@
                                             android:layout_height="@dimen/dp_40"/>
 ```
 
-> 默认带icon按钮：
+**默认带icon按钮：**
 
 ```xml
  <com.stormkid.kui_base.button.KuiButton android:layout_width="wrap_content"
@@ -46,7 +47,7 @@
 ```
 !> **直接输入icon的res即可显示图标按钮**
 
-> 镂空按钮：
+**镂空按钮：**
 
 ```xml
    <com.stormkid.kui_base.button.KuiButton android:layout_width="wrap_content"

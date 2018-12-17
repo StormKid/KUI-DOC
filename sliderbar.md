@@ -8,4 +8,5 @@
 * [badge](/compoments/badge)
 * [button](/compoments/button) 
 * [pop](/compoments/pop)
+* [toast](/compoments/toast)
 * [toolbar](/compoments/toolbar)
