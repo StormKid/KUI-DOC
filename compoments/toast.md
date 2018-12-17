@@ -12,7 +12,7 @@
 ##### 2、自定义使用
 
 ```kotlin
-      KuiToast(this).BuildToast()
+      KuiToast(context).BuildToast()
                     .setBlock(true).setDrawable(KuiToast.ROUND)
                     .setToastColor(ContextCompat.getColor(this,R.color.primary))
                     .setTextColor(R.color.primary).initToast()
