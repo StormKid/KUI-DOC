@@ -7,6 +7,7 @@
 * [alert](/compoments/alert)
 * [badge](/compoments/badge)
 * [button](/compoments/button) 
+* [card](/compoments/card)
 * [pop](/compoments/pop)
 * [toast](/compoments/toast)
 * [toolbar](/compoments/toolbar)

@@ -95,7 +95,7 @@ KuiChoiceAlert.instance
 | initClickDismiss (isClickAllDismiss : Boolean )             | 设置是否点击主窗口关闭整个弹窗                                   |
 | initCallback ( okCallback:()->Unit,cancelCallback:()->Unit) | 设置回调函数，okCallback为点击确定按钮，cancelCallback为点击取消 |
 
-!> **ColorResButton:**
+!> **ColorResButton**
 
 ```kotlin
 /**
