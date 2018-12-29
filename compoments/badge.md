@@ -39,13 +39,14 @@
 
 >Fun
 
-| FunctionName                        | Remark                                                |
-| ----------------------------------- | ----------------------------------------------------- |
-| isStroke (isStroke: Boolean)        | 是否镂空                                              |
-| isDragging(isDragging:Boolean)      | 是否启动滑动消失                                      |
-| setBgColor(@ColorInt color: Int)    | 设置badge背景颜色                                     |
-| setRadius(radius:Float)             | 设置badge倒角圆弧尺寸                                 |
-| setDragCallback(callback: ()->Unit) | 设置badge回调方法，只要有此回调则必会触发滑动消失功能 |
+| FunctionName                               | Remark                                                                          |
+| ------------------------------------------ | ------------------------------------------------------------------------------- |
+| isStroke (isStroke: Boolean)               | 是否镂空                                                                        |
+| isDragging(isDragging:Boolean)             | 是否启动滑动消失                                                                |
+| setBgColor(@ColorInt color: Int)           | 设置badge背景颜色                                                               |
+| setRadius(radius:Float)                    | 设置badge倒角圆弧尺寸                                                           |
+| setBgType(type:Int)                        | 设置background的类型【KuiButton.radiusType，KuiButton.roundType，KuiButton.circleType】 |
+| setDragDismissCallback(callback: ()->Unit) | 设置badge回调方法，只要有此回调则必会触发滑动消失功能                           |
 
 --------------------------
 
