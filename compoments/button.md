@@ -87,20 +87,21 @@
 
 > Fun
 
-| FunctionName                                             | Remark                                          |
-| -------------------------------------------------------- | ----------------------------------------------- |
-| setText (text:String)                                    | 设置button文字                                  |
-| setTextSize (size:Float)                                 | 设置button字体大小                              |
-| setTextColor ( res  : @ColorRes Int  )                   | 设置button字体颜色                              |
-| setIconRes( imgRes  : @DrawableRes Int )                 | 设置图标资源                                    |
-| setIconDimen(dimen:Float)                                | 设置图标尺寸                                    |
-| setIconResColor( @DrawableRes src:Int,ColorRes res :Int) | 设置图标颜色与填充文件                          |
-| setRadius (dimen:Float)                                  | 设置button倒角圆弧尺寸                          |
-| setBgType ( bg  : Int)                                   | 设置背景类型【radiusType/cicrleType/roundType】 |
-| setBgColor(@ColorInt bgColor:Int)                        | 设置backgroundColor                             |
-| setRippleColor(@ColorInt rippleColor:Int)                | 设置水波纹背景色                                |
-| setStorke ( isStorke : Boolean )                         | 设置是否镂空                                    |
-| setTextGravity ( gravity : Int )                         | 设置文字在button中的布局                        |
+| FunctionName                                             | Remark                                                                        |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| setText (text:String)                                    | 设置button文字                                                                |
+| setTextSize (size:Float)                                 | 设置button字体大小                                                            |
+| setTextColor ( res  : @ColorRes Int  )                   | 设置button字体颜色                                                            |
+| setIconRes( imgRes  : @DrawableRes Int )                 | 设置图标资源                                                                  |
+| setIconDimen(dimen:Float)                                | 设置图标尺寸                                                                  |
+| setIconResColor( @DrawableRes src:Int,ColorRes res :Int) | 设置图标颜色与填充文件                                                        |
+| setRadius (dimen:Float)                                  | 设置button倒角圆弧尺寸                                                        |
+| setBgType ( bg  : Int)                                   | 设置背景类型【radiusType/cicrleType/roundType】                               |
+| setBgColor(@ColorInt bgColor:Int)                        | 设置backgroundColor                                                           |
+| setRippleColor(@ColorInt rippleColor:Int)                | 设置水波纹背景色                                                              |
+| setStorke ( isStorke : Boolean )                         | 设置是否镂空                                                                  |
+| setTextGravity ( gravity : Int )                         | 设置文字在button中的布局                                                      |
+| setIconGravity(gravity: Int)                             | 设置图标在button中的相对于文字的布局【iconTop/iconLeft/iconRight/iconBottom】 |
 
 !>默认状态下不会激发水波纹，只有设置onClickListener过后即有水波纹显示。
 
